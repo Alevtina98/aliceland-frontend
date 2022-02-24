@@ -1,3 +1,6 @@
+@import "mixins";
+@import "variables";
+
 .container {
   padding: 0 2rem;
 }
@@ -29,7 +32,7 @@
 }
 
 .title a {
-  color: #0070f3;
+  color: $primary;
   text-decoration: none;
 }
 
@@ -88,15 +91,17 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #0070f3;
-  border-color: #0070f3;
+  color: $primary;
+  border-color: $primary;
 }
 
 .card h2 {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
 }
-
+.brand-icon {
+  fill: #fd43b3;
+}
 .card p {
   margin: 0;
   font-size: 1.25rem;
@@ -112,5 +117,10 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+}
+.brand {
+  a {
+    font-family: Snell Roundhand, cursive !important;
   }
 }

@@ -1,3 +1,9 @@
+
+@import "stylesheet.css";
+
+.brand {
+  /*font-family: Lobster !important;*/
+}
 html,
 body {
   padding: 0;
@@ -5,12 +11,18 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
+.d-flex-center {
+  display: flex;
+  align-items: center;
+}
 a {
   color: inherit;
   text-decoration: none;
 }
-
+img {
+  margin-right: 6px;
+}
 * {
   box-sizing: border-box;
 }
+
